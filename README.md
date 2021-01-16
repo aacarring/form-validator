@@ -1,0 +1,1 @@
+A client-side form validation project built with HTML, SCSS, and JavaScript.

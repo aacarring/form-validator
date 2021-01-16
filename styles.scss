@@ -11,7 +11,8 @@ body {
     background: $honeydew;
     @include flexDisplay();
     .container {
-        width: 50vw;
+        min-width: 300px;
+        max-width: 75vw;
         height: 90vh;
         background: $teagreen;
         border-radius: 15px;
@@ -20,7 +21,10 @@ body {
         overflow: scroll;
         header {
             @include flexDisplay();
-            width: 35vw;
+            min-width: 250px;
+            max-width: 30vw;
+            margin-left: 2.5vw;
+            margin-right: 2.5vw;
             margin-top: 15vh;
             text-align: center;
             margin-bottom: 5vh;
@@ -40,6 +44,28 @@ body {
                 }
                 input {
                     width: 250px;
+                    &:hover {
+                        cursor: text;
+                    }
+                }
+                span {
+                    margin-top: 1vh;
+                    font-style: italic;
+                    font-size: .9em;
+                }
+            }
+            .submit {
+                margin: 3vh;
+                width: 75px;
+                height: 25px;
+                border-radius: 10px;
+                outline: none;
+                border: 2px solid $magicmint;
+                box-shadow: 1px 1px 5px grey;
+                &:hover {
+                    cursor: pointer;
+                    border: 2px solid $honeydew;
+                    font-weight: 600;
                 }
             }
         }

@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #F0FFF1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .container {
+  width: 50vw;
+  height: 90vh;
+  background: #C2F8CB;
+  border-radius: 15px;
+  box-shadow: 1px 1px 15px grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: scroll;
+}
+body .container header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 35vw;
+  margin-top: 15vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+body .container header h1 {
+  margin-bottom: 1vh;
+}
+body .container .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5vh;
+}
+body .container .form .user-input {
+  width: 250px;
+  margin: 1vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .container .form .user-input label {
+  align-self: flex-start;
+}
+body .container .form .user-input input {
+  width: 250px;
+}
+
+/*# sourceMappingURL=styles.css.map */

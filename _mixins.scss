@@ -1,0 +1,10 @@
+@mixin flexDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+$honeydew: #F0FFF1;
+$teagreen: #C2F8CB;
+$magicmint: #B3E9C7;

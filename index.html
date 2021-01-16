@@ -16,24 +16,28 @@
         </header>
 
         <div class="form">
-            <div class="inputs">
                 <div class="user-input first-name">
-                    <span>First Name</span>
+                    <label for="first-name">First Name</label>
                     <input type="text" required>
                 </div>
                 <div class="user-input last-name">
-                    <span>Last Name</span>
+                    <label for="last-name">Last Name</label>
                     <input type="text" required>
                 </div>
                 <div class="user-input email">
-                    <span>Email</span>
+                    <label for="email">Email</label>
                     <input type="email" required>
                 </div>
-                <div class="user-input password">
-                    <span>Password</span>
-                    <input type="password" required>
+                <div class="user-input username">
+                    <label for="username">Username</label>
+                    <input type="text" required>
+                    <span>*Your username must contain at least one uppercase character and one number, and it must be at least eight characters long.</span>
                 </div>
-            </div>
+                <div class="user-input password">
+                    <label for="password">Password</label>
+                    <input type="password" required>
+                    <span>*Your password must contain at least one special character and one number, and it must at least 10 characters long.</span>
+                </div>
             <button class="submit" type="submit">Submit</button>
         </div>
 

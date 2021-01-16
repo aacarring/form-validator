@@ -18,14 +18,14 @@ function checkInputs() {
 
     function checkUsername() {
         if (!usernameRegex.test(usernameInput)) {
-            alert("Whoops, you need to change your username to meet the character requirements.");
+            alert("You need to change your username to meet the character requirements.");
             username.value = "";
         }
     }
 
     function checkPassword() {
         if (!passwordRegex.test(passwordInput)) {
-            alert("Whoops, you need to change your password to meet the character requirements.");
+            alert("You need to change your password to meet the character requirements.");
             password.value = "";
         } 
     }
